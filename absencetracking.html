@@ -9,12 +9,21 @@
         .absence-table {
             width: 100%;
             border-collapse: collapse;
+            background-color: white;
+        }
+        body {
+            background-image: url("quinnipiac-background.png");
+            background-size: cover; /* Cover the entire page */
+            background-repeat: no-repeat;
         }
 
         .absence-table th, .absence-table td {
             border: 1px solid #ddd;
             padding: 8px;
             text-align: left;
+        }
+        .container mt-5 {
+            background-color: white;
         }
 
         .absence-table th {
@@ -88,7 +97,7 @@
             // Get the selected date from the input field
             const selectedDate = dateInput.value;
 
-            // For demonstration purposes, you can mark the student as absent and update the UI.
+            // For demonstration purpose only.
             alert(`Marked ${fullName} as absent for ${selectedDate}`);
             row.style.backgroundColor = "#f8f8f8"; // Update the row's background color.
             button.disabled = true; // Disable the "Mark Absent" button after marking.

@@ -1,4 +1,9 @@
 #nav,#missed-content, #open-content {
     margin-top: 20px;
 }
+body {
+    background-image: url("quinnipiac-background.png");
+    background-size: cover; /* Cover the entire page */
+    background-repeat: no-repeat;
+}
 

@@ -9,3 +9,8 @@ input{
 .valid-feedback, .invalid-feedback{
     margin-bottom: 0;
 }
+body {
+    background-image: url("quinnipiac-background.png");
+    background-size: cover; /* Cover the entire page */
+    background-repeat: no-repeat;
+}
