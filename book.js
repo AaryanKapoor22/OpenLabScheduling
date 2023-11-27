@@ -22,3 +22,6 @@ function openClick() {
     missedContent.hidden = true;
 }
 
+function submitForm() {
+    window.location.href = 'upload.html';
+  }
