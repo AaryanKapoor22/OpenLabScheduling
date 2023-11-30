@@ -1,0 +1,18 @@
+.container-fluid {
+    font-size: x-large;
+    }
+    
+    .buttons-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: static;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .btn {
+        margin: 5px; /* Optional: adds a small space between buttons */
+    }
+    
