@@ -23,6 +23,14 @@ function openClick() {
 }
 
 
+function submitForm() {
+    window.location.href = 'upload.html';
+  } 
+
+  function confirmBooking(){
+    alert('Booking has been confirmed!');
+  }
+
 $('#bookingModal1').on('show.bs.modal', function (e) {
     var button = $(e.relatedTarget); // Button that triggered the modal
     var sessionDate = button.data('session-date'); // Extract info from data-* attributes
