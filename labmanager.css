@@ -11,6 +11,11 @@
         bottom: 0;
         width: 100%;
     }
+    body {
+        background-image: url("quinnipiac-background.png");
+        background-size: cover; /* Cover the entire page */
+        background-repeat: no-repeat;
+    }
     
     .btn {
         margin: 5px; /* Optional: adds a small space between buttons */
